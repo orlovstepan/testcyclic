@@ -4,8 +4,9 @@
 /* eslint-disable import/no-unresolved */
 const path = require("path");
 const express = require("express");
-
+var cors = require('cors')
 const app = express();
+app.use(cors())
 const server = require("http").Server(app);
 const socket = require("socket.io");
 
