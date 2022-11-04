@@ -1,6 +1,6 @@
 /* eslint-disable quotes */
 // eslint-disable-next-line no-undef
-const socket = io.connect("https://prickly-bear-windbreaker.cyclic.app");
+const socket = io.connect("https://scary-duck-bracelet.cyclic.app:3000");
 
 const message = document.getElementById("message-input");
 const sendMsg = document.getElementById("send-message");
